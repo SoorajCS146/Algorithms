@@ -1,0 +1,17 @@
+# Ignore all .exe files (Windows compiled binaries)
+*.exe
+
+# Ignore object files and compiled binaries
+*.o
+*.out
+*.obj
+
+# Ignore debugging and log files
+*.log
+*.tmp
+
+# Ignore generated directories (like VSCode, CLion, or build systems)
+.vscode/
+.idea/
+cmake-build-debug/
+build/
